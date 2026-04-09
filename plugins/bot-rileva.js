@@ -27,7 +27,7 @@ export async function before(m, { conn, groupMetadata }) {
 
   const type = m.messageStubType;
   let ppBuffer;
-  const vareb0t = 'https://i.ibb.co/hJW7WwxV/varebot.jpg';
+  const vareb0t = 'https://ibb.co/q3d1WRd6/zeynobot.jpg';
 
   try {
     const ppUrl = await conn.profilePictureUrl(m.chat, 'image');
