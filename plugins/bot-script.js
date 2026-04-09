@@ -4,7 +4,7 @@ const handler = async (m, { conn }) => {
   await conn.sendMessage(
     jid,
     {
-      text: `〖 🌸 〗 \`Benvenuto in VareBot!\``,
+      text: `〖 🌸 〗 \`Benvenuto in ZeynoBot!\``,
       title: '',
       footer: ``,
       cards: [
