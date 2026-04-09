@@ -43,7 +43,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                 if (result?.exists) {
                     found++;
                     results.push([batch[idx], '']);
-                } else { /*by sam aka vare*/
+                } else { /*by Endy Aka Zeyno*/
                     notFound.push(batch[idx]);
                 }
             }
@@ -54,7 +54,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         let foundList = results.map(([num]) => `✅ wa.me/${num}`).join('\n');
         let notFoundList = notFound.map(num => `❌ ${num}`).join('\n');
 
-        let finalMsg = `✅ *Ricerca completata!*\n┌───────────\n⁉️ *Trovati:* ${found}\n❌ *Non trovati:* ${notFound.length}\n└───────────\n\n*Numeri esistenti:*\n${foundList}\n\n*Numeri non esistenti:*\n${notFoundList}\n\n> vare ✧ bot`;
+        let finalMsg = `✅ *Ricerca completata!*\n┌───────────\n⁉️ *Trovati:* ${found}\n❌ *Non trovati:* ${notFound.length}\n└───────────\n\n*Numeri esistenti:*\n${foundList}\n\n*Numeri non esistenti:*\n${notFoundList}\n\n> 𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮`;
 
         await conn.sendMessage(m.chat, {
             text: finalMsg,
