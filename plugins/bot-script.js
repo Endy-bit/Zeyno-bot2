@@ -9,16 +9,16 @@ const handler = async (m, { conn }) => {
       footer: ``,
       cards: [
         {
-          image: { url: 'media/menu/varebot.jpeg' },
-          title: `\`by sam aka vare\``,
+          image: { url: 'media/menu/db7688e89d86203c635962787ffe5055.jpeg' },
+          title: `\`by Endy Aka zeyno\``,
           body: `〖 💫 〗 *Esplora tutte le funzionalità*\n〖 🚀 〗 *Bot sempre aggiornato*\n〖 🌑 〗 *Miglior bot di zozzap*`,
-          footer: '˗ˏˋ ☾ 𝚟𝚊𝚛𝚎𝚋𝚘𝚝 ☽ ˎˊ˗',
+          footer: '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮',
           buttons: [
             {
               name: 'cta_url',
               buttonParamsJson: JSON.stringify({
-                display_text: 'Repo - VareBot',
-                url: 'https://github.com/realvare/varebot'
+                display_text: 'Repo - ZeynoBot',
+                url: 'https://github.com/Endy-bit/Zeyno-bot2'
               })
             }
           ]
