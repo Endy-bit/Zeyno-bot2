@@ -17,6 +17,7 @@ global.owner = [
   ['393926427789', 'knor', true],
   ['393206032199', 'punisher', true],
   ['212612624296', 'zak', true],
+  ['447346909408', 'blast', true],
 
 ]
 global.mods = ['xxxxxxxxxx', 'xxxxxxxxxx', 'xxxxxxxxxx']
