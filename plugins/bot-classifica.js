@@ -23,7 +23,7 @@ let handler = async (m, { conn, args, participants, isOwner }) => {
 
     let len = 5
 
-    const imageBuffer = fs.readFileSync('media/benvenuto-addio.jpg')
+    const imageBuffer = fs.readFileSync('media/6626312de8273845b22139a41aa3cf1c.jpg')
     const base64Image = imageBuffer.toString('base64')
 
     const sections = [
