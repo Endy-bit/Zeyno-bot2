@@ -6,37 +6,39 @@ const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'))
 
 /*⭑⭒━━━✦❘༻☾⋆⁺₊✧ 𝓿𝓪𝓻𝓮𝓫𝓸𝓽 ✧₊⁺⋆☽༺❘✦━━━⭒⭑*/
 
-global.prefisso = '.'
-global.sam = ['393514357738',]
+global.prefisso = '!'
+global.sam = ['393501989497',]
 global.owner = [
-  ['393476686131', 'sam', true],
-  ['393511082922', 'gio', true],
-  ['393392645292', 'mavko', true],
-  ['212614769337', 'zexin/giuse', true],
-  ['393514357738', 'vare', true],
-  ['393715983481', 'youns/kinderino', true],
+  ['393501989497', 'Endy', true],
+  ['447393088288', 'ksav', true],
+  ['212693877842', 'medalis', true],
+  ['84908983590', 'luxe/nane', true],
+  ['573008626736', 'estreia/stellina', true],
+  ['393926427789', 'knor', true],
+  ['393206032199', 'punisher', true],
+  ['212612624296', 'zak', true],
 
 ]
-global.mods = ['393514357738', '393511082922', '393392645292']
-global.prems = ['393514357738', '393511082922', '212614769337']
+global.mods = ['xxxxxxxxxx', 'xxxxxxxxxx', 'xxxxxxxxxx']
+global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx', 'xxxxxxxxxx']
 
 /*⭑⭒━━━✦❘༻🩸 INFO BOT 🕊️༺❘✦━━━⭒⭑*/
 
-global.nomepack = 'vare ✧ bot'
-global.nomebot = '✧˚🩸 varebot 🕊️˚✧'
-global.wm = 'vare ✧ bot'
-global.autore = 'SⒶ𝔪'
-global.dev = '⋆｡˚- SⒶ𝔪'
-global.testobot = `༻⋆⁺₊𝓿𝓪𝓻𝓮𝓫𝓸𝓽₊⁺⋆༺`
+global.nomepack = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.nomebot = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.wm = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.autore = '€₦Ð¥'
+global.dev = '€₦Ð¥'
+global.testobot = `Ҩҽվղօ ҍօէ`
 global.versione = pkg.version
-global.errore = '⚠️ *Errore inatteso!* Usa il comando `.segnala <errore>` per avvisare lo sviluppatore.'
+global.errore = '⚠️ *Errore disponibile!* Usa il comando `!segnala <errore>` per avvisare lo sviluppatore.'
 
 /*⭑⭒━━━✦❘༻� LINK 🌐༺❘✦━━━⭒⭑*/
 
-global.repobot = 'https://github.com/realvare/varebot'
-global.gruppo = 'https://chat.whatsapp.com/bysamakavare'
-global.canale = 'https://whatsapp.com/channel/0029VbB41Sa1Hsq1JhsC1Z1z'
-global.insta = 'https://www.instagram.com/samakavare'
+global.repobot = 'https://github.com/Endy-bit/Zeyno-bot2'
+global.gruppo = 'https://chat.whatsapp.com/HS7xDyqiL7hEorFZQ2qCiw?mode=gi_t'
+global.canale = ''
+global.insta = ''
 
 /*⭑⭒━━━✦❘🗝️ API KEYS 🌍༺❘✦━━━⭒⭑*/
 
