@@ -1,4 +1,3 @@
-// comando creato e pensato da easter
 import fs from 'fs'
 import path from 'path'
 
