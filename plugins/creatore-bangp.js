@@ -1,4 +1,3 @@
-// è un po outdated sto plugin (assieme al unbangp)
 let handler = async (m, { conn, args, isOwner }) => {
     try {
         if (!isOwner) {
@@ -6,7 +5,7 @@ let handler = async (m, { conn, args, isOwner }) => {
             errorMsg += `━━━━━━━━━━━━━━━━\n\n`
             errorMsg += `*⚠️ Motivo:*\n`
             errorMsg += `└─⭓ Comando riservato al proprietario\n\n`
-            errorMsg += `> vare ✧ bot`
+            errorMsg += `ZeynoBot`
             return m.reply(errorMsg)
         }
         if (!m.isGroup) {
