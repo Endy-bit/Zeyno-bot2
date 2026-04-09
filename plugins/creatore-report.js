@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text }) => {
-    if (!text) return m.reply('『 ⚠️ 』 *Inserisci l\'errore che desideri segnalare._*\n- \`Esempio:\` .report il comando !play non funziona')
+    if (!text) return m.reply('『 ⚠️ 』 *Inserisci l\'errore che desideri segnalare._*\n- \`Esempio:\` !report il comando !play non funziona')
     if (text.length < 5) return m.reply('『 ⚠️ 』 *Specifica bene l\'errore, minimo 5 caratteri._*')
     if (text.length > 850) return m.reply('『 ⚠️ 』 *Massimo 850 caratteri per inviare l\'errore._*')
 
