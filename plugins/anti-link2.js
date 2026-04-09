@@ -271,7 +271,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isSam }) {
 
                     if (user[m.sender].antiLink2Warns < 3) {
                         await conn.sendMessage(m.chat, {
-                            text: `> 『 ⚠️ 』 Avviso ${user[m.sender].antiLink2Warns}/3 per link ${detectedPlatform}. Al terzo avviso verrai rimosso.\n\n> \`vare ✧ bot\``,
+                            text: `> 『 ⚠️ 』 Avviso ${user[m.sender].antiLink2Warns}/3 per link ${detectedPlatform}. Al terzo avviso verrai rimosso.\n\n> \`𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\``,
                             mentions: [m.sender]
                         })
                     } else {
@@ -279,7 +279,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isSam }) {
                         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove').catch(console.error)
                         const username = m.sender.split('@')[0]
                         await conn.sendMessage(m.chat, {
-                            text: `> 『 🛑 』 \`Link ${detectedPlatform} rilevato.\` *Ciao ciao* @${username}\n\n> \`vare ✧ bot\``,
+                            text: `> 『 🛑 』 \`Link ${detectedPlatform} rilevato.\` *Ciao ciao* @${username}\n\n> \`𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\``,
                             mentions: [m.sender]
                         })
                     }
@@ -313,7 +313,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isSam }) {
 
                     if (user[m.sender].antiLink2Warns < 3) {
                         await conn.sendMessage(m.chat, {
-                            text: `> 『 ⚠️ 』 Avviso ${user[m.sender].antiLink2Warns}/3 per QR con link ${detectedPlatform}. Al terzo avviso verrai rimosso.\n\n> \`vare ✧ bot\``,
+                            text: `> 『 ⚠️ 』 Avviso ${user[m.sender].antiLink2Warns}/3 per QR con link ${detectedPlatform}. Al terzo avviso verrai rimosso.\n\n> \`𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\``,
                             mentions: [m.sender]
                         })
                     } else {
@@ -321,7 +321,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isSam }) {
                         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove').catch(console.error)
                         const username = m.sender.split('@')[0]
                         await conn.sendMessage(m.chat, {
-                            text: `> 『 🚫 』 \`QR con link ${detectedPlatform} rilevato.\` *Ciao ciao* @${username}\n\n> \`vare ✧ bot\``,
+                            text: `> 『 🚫 』 \`QR con link ${detectedPlatform} rilevato.\` *Ciao ciao* @${username}\n\n> \`𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\``,
                             mentions: [m.sender]
                         })
                     }
