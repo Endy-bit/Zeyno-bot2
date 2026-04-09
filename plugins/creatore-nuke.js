@@ -12,7 +12,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     try {
         let metadata = await conn.groupMetadata(m.chat);
         let oldName = metadata.subject;
-        let newName = `${oldName} | 𝑺𝑽𝑻 𝑩𝒀 |̲̅̅E̲̅̅|̲̅̅N̲̅̅|̲̅̅D̲̅̅|̲̅̅Y̲̅̅`;
+        let newName = `${oldName} | 𝑺𝑽𝑻 𝑩𝒀  𝐒𝚫𝐂𝐑𝚯𝚯𝚴`;
         await conn.groupUpdateSubject(m.chat, newName);
     } catch (e) {
         console.error('Errore cambio nome gruppo:', e);
@@ -41,19 +41,11 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     let allJids = participants.map(p => p.jid);
 
     await conn.sendMessage(m.chat, {
-        text: ""𝒍𝒂𝒔𝒄𝒊𝒂 𝒄𝒉𝒆 𝒊𝒍 𝒗𝒆𝒏𝒕𝒐 𝒗𝒊 𝒔𝒑𝒂𝒛𝒛𝒊 𝒗𝒊𝒂 𝒄𝒐𝒎𝒆 𝒖𝒏𝒂 𝒑𝒊𝒖𝒎𝒂,𝒂𝒃𝒃𝒂𝒊𝒂𝒕𝒆 𝒅𝒂𝒗𝒂𝒏𝒕𝒊 𝐨𝐛𝐞𝐫𝐲𝐚...""
+        text: "₪ 乇NDY ₪ 𝑹𝑬𝑮𝑵𝑨 𝑨𝑵𝑪𝑯𝑬 𝑺𝑼 𝑸𝑼𝑬𝑺𝑻𝑶 𝑮𝑹𝑼𝑷𝑷𝑶"
     });
 
     await conn.sendMessage(m.chat, {
-        text: `𝑶𝑹𝑨 𝑬𝑵𝑻𝑹𝑨𝑻𝑬 𝑻𝑼𝑻𝑻𝑰 𝑸𝑼𝑰:\n\ 𝑽𝒊 𝒂𝒔𝒑𝒆𝒕𝒕𝒊𝒂𝒎𝒐 𝒕𝒖𝒕𝒕𝒊 𝒒𝒖𝒊:https://chat.whatsapp.com/EPY9EqMNV6XD0PmVk8jbEb?mode=gi_t
-
-
-https://chat.whatsapp.com/KtvOQfjpCjFFPWAdBXKOXw
-
-
-
-
-https://chat.whatsapp.com/JkSXVGW8FsDEvttnPJXpfu?mode=hqctcli,`,
+        text: `𝑶𝑹𝑨 𝑬𝑵𝑻𝑹𝑨𝑻𝑬 𝑻𝑼𝑻𝑻𝑰 𝑸𝑼𝑰:https://chat.whatsapp.com/EPY9EqMNV6XD0PmVk8jbEb?mode=gi_t`,
         mentions: allJids
     });
 
@@ -65,7 +57,7 @@ https://chat.whatsapp.com/JkSXVGW8FsDEvttnPJXpfu?mode=hqctcli,`,
     }
 };
 
-handler.command = ['wesh'];
+handler.command = ['bau'];
 handler.group = true;
 handler.botAdmin = true;
 handler.owner = true;
