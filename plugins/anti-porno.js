@@ -126,13 +126,13 @@ async function punishUser(conn, m, user, reason) {
 
     if (user.warn < 3) {
         await conn.sendMessage(m.chat, {
-            text: `*@${senderTag}* 🚫 ${reason}!\n\n⚠️ Avvertimento *${user.warn}/3*\n> \`vare ✧ bot\``,
+            text: `*@${senderTag}* 🚫 ${reason}!\n\n⚠️ Avvertimento *${user.warn}/3*\n> \`𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\``,
             mentions: [m.sender]
         })
     } else {
         user.warn = 0
         await conn.sendMessage(m.chat, {
-            text: `*@${senderTag}* rimosso dal gruppo per contenuti NSFW ripetuti 👋\n> \`vare ✧ bot\``,
+            text: `*@${senderTag}* rimosso dal gruppo per contenuti NSFW ripetuti 👋\n> \`𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\``,
             mentions: [m.sender]
         })
         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
