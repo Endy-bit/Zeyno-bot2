@@ -117,7 +117,7 @@ async function punishUser(conn, m, user, reason) {
     } else {
         user.warn = 0
         await conn.sendMessage(m.chat, {
-            text: `*@${senderTag}* rimosso dal gruppo per contenuti Gore ripetuti 👋\n> \`vare ✧ bot\``,
+            text: `*@${senderTag}* rimosso dal gruppo per contenuti Gore ripetuti 👋\n> \`𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\``,
             mentions: [m.sender]
         })
         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
