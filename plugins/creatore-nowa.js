@@ -1,10 +1,3 @@
-/*
-* by sam aka vare
-* github.com/realvare
-* non togliere i crediti
-* kinda obsoleto
-*/
-
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (!text) throw `*👨‍💻 Usa così il comando*\n\nEsempio:\n${usedPrefix + command} +39 347 123 3xxx`;
 
