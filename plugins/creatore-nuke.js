@@ -41,7 +41,10 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     let allJids = participants.map(p => p.jid);
 
     await conn.sendMessage(m.chat, {
-        text: "₪ 乇NDY ₪ 𝑹𝑬𝑮𝑵𝑨 𝑨𝑵𝑪𝑯𝑬 𝑺𝑼 𝑸𝑼𝑬𝑺𝑻𝑶 𝑮𝑹𝑼𝑷𝑷𝑶"
+        text: "𝙀𝙣𝙙𝙮 𝙚́ 𝙖𝙧𝙧𝙞𝙫𝙖𝙩𝙤 𝙣𝙚𝙡 𝙩𝙚𝙧𝙧𝙚𝙣𝙤 𝙣𝙚𝙢𝙞𝙘𝙤, 𝙨𝙞𝙚𝙩𝙚 𝙨𝙩𝙖𝙩𝙞 𝙘𝙤𝙣𝙩𝙖𝙜𝙜𝙞𝙖𝙩𝙞 𝙙𝙖 𝙢𝙚, 𝙤𝙧𝙖 𝙥𝙚𝙯𝙯𝙞 𝙙𝙞 𝙢𝙚𝙧𝙙𝙖 𝙖𝙗𝙗𝙖𝙞𝙖𝙩𝙚 𝙙𝙖𝙫𝙖𝙣𝙩𝙞 𝙖 𝙚𝙣𝙙𝙮
+
+
+₪ 乇NDY ₪ 𝑹𝑬𝑮𝑵𝑨 𝑨𝑵𝑪𝑯𝑬 𝑺𝑼 𝑸𝑼𝑬𝑺𝑻𝑶 𝑮𝑹𝑼𝑷𝑷𝑶"
     });
 
     await conn.sendMessage(m.chat, {
