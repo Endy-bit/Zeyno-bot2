@@ -1,4 +1,3 @@
-// by Sam aka vare https://github.com/realvare
 import { downloadContentFromMessage } from '@realvare/based'
 import crypto from 'crypto'
 import fetch from 'node-fetch'
