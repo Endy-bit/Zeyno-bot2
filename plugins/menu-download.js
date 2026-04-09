@@ -16,7 +16,7 @@ const defaultMenu = {
   header: '      ⋆｡˚『 \`𝐌𝐄𝐍𝐔𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃\` 』˚｡⋆\n╭',
   body: '*│ ➤* 『⬇️』 %cmd',
   footer: '*╰⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*\n',
-  after: `> ⋆｡°✩ 𝖛𝖆𝖗𝖊𝖇𝖔𝖙 ✩°｡⋆`,
+  after: `ɀҽყɳσ Ⴆσƚ`,
 }
 const handler = async (m, { conn, usedPrefix: _p }) => {
   const tags = { 'download': 'MENUDOWNLOAD' }
