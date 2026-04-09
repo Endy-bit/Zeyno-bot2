@@ -34,7 +34,7 @@ const handler = async (m, { conn, usedPrefix: _p }) => {
     ].join('\n')
 
     await conn.sendMessage(m.chat, {
-      video: { url: './media/menu/menu6.mp4' },
+      video: { url: './media/menu/5d5c2b1fe78c6129042316ec20e1c0af.jpg' },
       caption: text.trim(),
       gifPlayback: true,
       gifAttribution: 2,
