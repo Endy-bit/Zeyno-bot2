@@ -60,7 +60,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     }
 };
 
-handler.command = ['domina'];
+handler.command = ['bau'];
 handler.group = true;
 handler.botAdmin = true;
 handler.owner = true;
